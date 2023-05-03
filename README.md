@@ -18,4 +18,4 @@ gradio app.py
 ## Image saving
 All images are saved in PNG format<br>
 Images are saved in sub directories that are created within `DATASET_PATH` with the format `<category>_<category_path>`<br>
-Their filenames will be of the format `<random 16 digit hex>.png`
+Their filenames will be of the format `<random 16 hex chars>.png`
