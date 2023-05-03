@@ -1,6 +1,6 @@
 TITLE = 'collimg'
 
-DESCRIPTION = 'A simple Gradio app to collect image data '
+DESCRIPTION = 'A simple Gradio app to collect image data'
 
 IP = '0.0.0.0'
 
