@@ -10,3 +10,11 @@ cp config.py.example config.py
 pip install -r requirements.txt
 gradio app.py
 ```
+
+## Editing `config.py`
+`CATEGORIES` should be a dictionary with keys as category names and values as category indices. Ex. {'truck':0, 'ship':1}<br>
+`DATASET_PATH` should contain the absolute path to the directory where the data should be stored as a string. Ex. '/home/foo/Documents/test_dataset'
+
+## Image saving
+Images are saved in sub directories that are created within DATASET_PATH with the format `<category>_<category_path>`<br>
+Their filenames will be of the format `<random 16 digit hex>.png`
